@@ -376,7 +376,7 @@ class CalcController {
 
     set displayCalc(displayCalc) {
 
-        if (displayCalc.toString.length>10){
+        if (displayCalc.toString().length>10){
             this.setError();
             return false;
         }
