@@ -1,7 +1,7 @@
 # Calculadora JavaScript
 
 Calculadora desenvolvida como exemplo do Curso Completo de JavaScript na Udemy.com.
-<a href="https://mthws167.github.io/Calculadora-JS/"><b>VCalculadora JS</b></a>
+<li><a href="https://mthws167.github.io/Calculadora-JS/"><b>Calculadora JS</b></a></li>
 
 # Tecnologias
 <ul>
