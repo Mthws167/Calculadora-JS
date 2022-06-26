@@ -374,7 +374,7 @@ class CalcController {
         return this._displayCalcEl.innerHTML;
     }
 
-    set displayCalc(displayCalc) {
+     set displayCalc(displayCalc) {
 
         if (displayCalc.toString().length>10){
             this.setError();
