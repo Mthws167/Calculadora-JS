@@ -1,3 +1,7 @@
+@import url(tiny.css) (min-width:300px);
+@import url(small.css) (min-width:600px);
+@import url(big.css) (min-width:900px);
+
 button,
 hr,
 input {
@@ -192,10 +196,18 @@ svg {
 #calculadora {
     margin: 0 auto;
 }
-@media only screen and (max-device-width: 900px) {
-     .menu { width:600px; } 
+
+@media screen and (max-width:768px){
+    section, aside{
+        width:100%;
+        padding: 0;
+    }
 }
 
-@media only screen and (max-device-width: 600px) {
-     .menu { width:400px; } 
+@media screen and (max-width:600px){
+    nav li{
+        text-align: center;
+        width:100%;
+        float: none;
+    }
 }
